@@ -1,0 +1,12 @@
+{
+  "name": "vaga-certa-monorepo",
+  "version": "1.0.0",
+  "description": "Vaga Certa — Plataforma de Pesquisa, Validação Oficial e Acompanhamento de Oportunidades",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "test": "cd backend && npm run test"
+  }
+}
+
